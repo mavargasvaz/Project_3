@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SUDORS Dashboard: Fatal Overdose Data</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <title>SUDORS Dashboard</title>
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -16,26 +17,42 @@
   <style>
     div {
       border: 1.px solid black;
-      background-color: rgb(155, 15, 236);
+      background-color: rgba(155, 15, 236, 0);
       padding-top: 10px;
       padding-right: 30px;
       padding-bottom: 5%;
       padding-left: 30px;
     }
     </style>
+    <style>
+      .header_div {
+        border: 1px outset#38d2fc;
+        background-color: #0e0e0efa;
+        padding: 0%;
+        font-size: 20px;
+        color: aliceblue;
+        text-align: left;
+      }
+      </style>
     </head>
     <body>
-    <div>SUDORS Dashboard: Fatal Overdose Data</div>
-    <h1 style="background-color:rgb(212, 71, 255);">SUDORS Dashboard: Fatal Overdose Data</h1>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
+      <div class="header_div">
+        <h1>SUDORS Dashboard Fatal Overdose</a>
+        <p style="color:rgba(9, 119, 193, 0.783);">Interactive data on fatal overdoses from CDC’s State Unintentional Drug Overdose Reporting System (SUDORS).</p>
+      </div>
     </head>
-
 <body>
+
+  <div class="row">
+    <div class="col-md-2">
+      <div class="well">
+        <h5>Year Selection.:</h5>
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </div>
+<div id="plot"></div>    
+
+  <div id="svg"></div>
+  
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -44,6 +61,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <!-- Our JavaScript -->
   <script type="text/javascript" src="static/js/logic.js"></script>
+  
 </body>
 
 </html>
