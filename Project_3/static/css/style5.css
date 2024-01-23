@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chart-container {
+    margin-top: 20px;
+}
+
+.tooltip {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 10px;
+    position: absolute;
+    opacity: 0;
+}
