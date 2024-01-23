@@ -49,6 +49,20 @@
         <h5>Year Selection.:</h5>
         <select id="selDataset" onchange="optionChanged(this.value)"></select>
       </div>
+      <h3 class="subheader">Rate of overdose deaths by state and drug or drug class</h3>
+      <div>
+        <button class="button_click" id="1">All drugs</button>
+        <button class="button_click" id="2">Any opiods</button>
+        <button class="button_click" id="3">Illegally-made Fentanyls</button>
+        <button class="button_click" id="4">Heroin</button>
+        <button class="button_click" id="5">Prescription opioids</button>
+        <button class="button_click" id="6">Any stimulants</button>
+        <button class="button_click" id="7">Cocaine</button>
+        <button class="button_click" id="8">Methanphetamine</button>
+        <button class="button_click" id="9">Benzodiazepines</button>
+        <button class="button_click" id="10">Non-opiod Sedatives</button>
+      </div>
+  
 <div id="plot"></div>    
 
   <div id="svg"></div>
@@ -59,8 +73,9 @@
     crossorigin=""></script>
   <!-- D3 JavaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-scale.v3.min.js"></script>
   <!-- Our JavaScript -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
+  <script type="text/javascript" src="static/js/logic2.js"></script>
   
 </body>
 
