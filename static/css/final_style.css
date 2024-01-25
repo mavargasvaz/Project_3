@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+text {
+	font: sans-serif;
+	font-size: 12px;
+	fill: #181717;
+}
+.subheader {
+  padding: 30px;
+  text-align: center;
+  background: #712177;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.button_click {
+	color: white;
+	height: 4em;
+	width: 35%;
+	padding: 0.5em auto;
+	margin: 1em auto;
+	background-color: #b8bbbb;
+	border: none;
+	border-radius: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button_click:hover {
+	letter-spacing: 0.3em;
+	background-color: #712177;
+}
+
+.axis {
+	stroke-width: 2px;
+	stroke: black;
+}
+
