@@ -1,4 +1,4 @@
-# Project_3 Overdose deaths 2020-2022 analysis *
+# Project_3 Overdose deaths 2020-2022 analysis 
 This repository contains all fo the files related to the Project 3
  
 For this project we wanted to find out if there been a consistent increase on the number of deaths related to overdose throughout all of America in the last few years? If so, what drugs are causing it? 
