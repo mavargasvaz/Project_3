@@ -7,7 +7,7 @@ What state has the highest rate of overdose deaths?
 Our project contains data from 30 out of the 50 states in America (states can vary from year to year).
 In 2022 there was a total of 51,435 deaths related to overdose in America
 
-The site is hosted in GitHub pages and can be found on the following website: 
+The site is hosted in GitHub pages and can be found on the following website: https://rene22m.github.io/Project_No.3/
 The website has different functions such as buttons with dropdowns that filter the data by year (2020, 2021, 2022) and clickable buttons.
 In the first part of the website you will be welcomed by the  Title, subtitle and under you will se a button that once it's clicked it will display a dropdown menu.
 Your will be given the option to select a year out of the following: 2020, 2021 or 2022.
